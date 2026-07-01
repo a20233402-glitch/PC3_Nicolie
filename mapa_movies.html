@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b237c217b22844b834b74a3929e1982a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b237c217b22844b834b74a3929e1982a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b237c217b22844b834b74a3929e1982a = L.map(
+                "map_b237c217b22844b834b74a3929e1982a",
+                {
+                    center: [45.0, -30.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9d8bed7669522d64c2ed89cd39783973 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9d8bed7669522d64c2ed89cd39783973.addTo(map_b237c217b22844b834b74a3929e1982a);
+        
+    
+            var marker_fbecb4625743f6dec00aa9ee5b51d897 = L.marker(
+                [59.9139, 10.7522],
+                {
+}
+            ).addTo(map_b237c217b22844b834b74a3929e1982a);
+        
+    
+        var popup_3d4d58151550c14472e838b8fbd272e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbdfc10bd471b0b17fd1b826c38fad90 = $(`<div id="html_dbdfc10bd471b0b17fd1b826c38fad90" style="width: 100.0%; height: 100.0%;">     <b>Sentimental Value</b><br>     Director: Joachim Trier<br>     Año: 2025<br>     Pais: Noruega     </div>`)[0];
+                popup_3d4d58151550c14472e838b8fbd272e0.setContent(html_dbdfc10bd471b0b17fd1b826c38fad90);
+            
+        
+
+        marker_fbecb4625743f6dec00aa9ee5b51d897.bindPopup(popup_3d4d58151550c14472e838b8fbd272e0)
+        ;
+
+        
+    
+    
+            marker_fbecb4625743f6dec00aa9ee5b51d897.bindTooltip(
+                `<div>
+                     Sentimental Value
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_077e291c4c92e5acd3680f3e67adafea = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_b237c217b22844b834b74a3929e1982a);
+        
+    
+        var popup_4812cd85e3d291d5e4f9e1e03b02a425 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_227ca28c16e8ec9870b32b30cb2fcd3b = $(`<div id="html_227ca28c16e8ec9870b32b30cb2fcd3b" style="width: 100.0%; height: 100.0%;">     <b>Tick, Tick...Boom!</b><br>     Director: Lin-Manuel Miranda<br>     Año: 2021<br>     Pais: Estados Unidos     </div>`)[0];
+                popup_4812cd85e3d291d5e4f9e1e03b02a425.setContent(html_227ca28c16e8ec9870b32b30cb2fcd3b);
+            
+        
+
+        marker_077e291c4c92e5acd3680f3e67adafea.bindPopup(popup_4812cd85e3d291d5e4f9e1e03b02a425)
+        ;
+
+        
+    
+    
+            marker_077e291c4c92e5acd3680f3e67adafea.bindTooltip(
+                `<div>
+                     Tick, Tick...Boom!
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_82eb0562a9da796b347f5503d076cf96 = L.marker(
+                [40.7128, -73.135],
+                {
+}
+            ).addTo(map_b237c217b22844b834b74a3929e1982a);
+        
+    
+        var popup_de358148825c508bc1698ff2b2e8c67d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f37e87da41f064c14a1795241ed59ba = $(`<div id="html_5f37e87da41f064c14a1795241ed59ba" style="width: 100.0%; height: 100.0%;">     <b>Eternal Sunshine of the Spotless Mind</b><br>     Director: Michel Gondry<br>     Año: 2004<br>     Pais: Estados Unidos     </div>`)[0];
+                popup_de358148825c508bc1698ff2b2e8c67d.setContent(html_5f37e87da41f064c14a1795241ed59ba);
+            
+        
+
+        marker_82eb0562a9da796b347f5503d076cf96.bindPopup(popup_de358148825c508bc1698ff2b2e8c67d)
+        ;
+
+        
+    
+    
+            marker_82eb0562a9da796b347f5503d076cf96.bindTooltip(
+                `<div>
+                     Eternal Sunshine of the Spotless Mind
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fc4d85e12e4aeb5d7139a366e256563c = L.marker(
+                [50.266, -5.0527],
+                {
+}
+            ).addTo(map_b237c217b22844b834b74a3929e1982a);
+        
+    
+        var popup_315b655053a2f09dbc535af5f2bbe1d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afa4692bed7426773427c9986fbaa712 = $(`<div id="html_afa4692bed7426773427c9986fbaa712" style="width: 100.0%; height: 100.0%;">     <b>About Time</b><br>     Director: Richard Curtis<br>     Año: 2013<br>     Pais: Estados Unidos     </div>`)[0];
+                popup_315b655053a2f09dbc535af5f2bbe1d9.setContent(html_afa4692bed7426773427c9986fbaa712);
+            
+        
+
+        marker_fc4d85e12e4aeb5d7139a366e256563c.bindPopup(popup_315b655053a2f09dbc535af5f2bbe1d9)
+        ;
+
+        
+    
+    
+            marker_fc4d85e12e4aeb5d7139a366e256563c.bindTooltip(
+                `<div>
+                     About Time
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fbbc62f3d581b0f1bbd5904f9c219253 = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_b237c217b22844b834b74a3929e1982a);
+        
+    
+        var popup_415892e5528f3f0c645eeda1efce1e37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f5fda184e38a35fd8eeab305f621206 = $(`<div id="html_6f5fda184e38a35fd8eeab305f621206" style="width: 100.0%; height: 100.0%;">     <b>La La Land</b><br>     Director: Damien Chazelle<br>     Año: 2016<br>     Pais: Estados Unidos     </div>`)[0];
+                popup_415892e5528f3f0c645eeda1efce1e37.setContent(html_6f5fda184e38a35fd8eeab305f621206);
+            
+        
+
+        marker_fbbc62f3d581b0f1bbd5904f9c219253.bindPopup(popup_415892e5528f3f0c645eeda1efce1e37)
+        ;
+
+        
+    
+    
+            marker_fbbc62f3d581b0f1bbd5904f9c219253.bindTooltip(
+                `<div>
+                     La La Land
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_9d8bed7669522d64c2ed89cd39783973.addTo(map_b237c217b22844b834b74a3929e1982a);
+        
+</script>
+</html>

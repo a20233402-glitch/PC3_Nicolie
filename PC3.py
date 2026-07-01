@@ -138,7 +138,7 @@ elif opciones == 'Experiencia':
         "En este video se explica la diferecia entre los bucles For y While explicados para la egunda práctica calificada; el video cuenta con la explicación de ejemplos propios de forma ue vuelve más dinámico el contenido audiovisual"
     )
 
-elif opciones == 'Gráficos':
+elif opciones == 'Proyectos':
     st.markdown("<h2 style='text-align: center;'>Nombre a la sección 'Gráficos'</h2>", unsafe_allow_html=True)
 
     graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
@@ -206,7 +206,7 @@ elif opciones == 'Gráficos':
         )
 
         # Cargar el mapa HTML generado previamente
-        with open("mapa.html", "r", encoding="utf-8") as f:
+        with open("mapa_movies.html", "r", encoding="utf-8") as f:
             html_content = f.read()
 
         # Mostrar el mapa interactivo
