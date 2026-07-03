@@ -89,9 +89,9 @@ if opciones == 'Inicio':
     Lo que más disfruto de mi carrera es que cada proyecto es diferente y siempre me deja algo nuevo por aprender. Actualmente formo parte de zineas, una organización audiovisual donde he tenido la oportunidad de participar en distintos cortometrajes y asumir diversos retos. 
     Gracias a esa experiencia también nació Studios Tiksi, una productora emergente de la que soy Productora Ejecutiva y también soy lider de la Casa del León. Sin enmbargo más que los cargos, lo que más valoro son las personas que he conocido ahí C: Les tengo mucho cariño a mis lions y a mis tiksis, porque con ellos he vivido experiencias increibles,
     he aprendido un montón y he encontrado una comunidad que siempre me impulsa a seguir creciendo tanto en lo personal como en lo profesional.  
-    En el futuro me gustaría especializarme en Dirección de Fotografía y Dirección de Arte, ya que me fascina la manera en que la iluminación, los colores, la composición y el diseño visual pueden transmitir emociones y darle identidad a una historia. En mi tiempo libre disfruto ver películas y series, escuchar música, 
-    tomar fotografías, aprender cosas nuevas y compartir tiempo con las personas que quiero.  Siempre estoy buscando inspiración para seguir creciendo como comunicadora audiovisual y como persona. Si tuviera que describirme en pocas palabras, diría que soy una persona curiosa, creativa, comprometida y apasionada por 
-    todo lo relacionado con el cine y la creación audiovisual.
+    En el futuro me gustaría especializarme en Dirección de Fotografía y Dirección de Arte, ya que me fascina la manera en que la iluminación, los colores, la composición y el diseño visual pueden transmitir emociones y darle identidad a una historia. En mi tiempo libre disfruto ver películas, escuchar música, bailar, 
+    tomar fotografías, aprender cosas nuevas, disfrutar de el aire libre y estar riendo con mis amigos.  Siempre estoy buscando inspiración para seguir creciendo como comunicadora audiovisual y me gusta mucho explorar redes. Si tuviera que describirme en pocas palabras, diría que soy una persona curiosa, creativa, comprometida y apasionada por 
+    todo lo relacionado con expresar el arte de forma visual C;
     """
 
     # Muestra el texto en la segunda columna utilizando HTML
