@@ -78,20 +78,20 @@ if opciones == 'Inicio':
     col1, col2 = st.columns(2)
 
     # Muestra una imagen en la primera columna
-    col1.image("ellie.png", caption='Ellie', width=300)
+    col1.image("Yo2.JPG", caption='Nicolie Chiroque (Blue)', width=300)
     # "ellie.png" es el archivo de imagen que se visualizará -> Aquí debes reemplazar por tu foto de perfil
     # El texto "Ellie" aparecerá como descripción de la imagen
     # width=300 establece el ancho de la imagen en 300 píxeles
 
     # Define una cadena de texto multilínea que contiene una guía para redactar una presentación personal.
     texto = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres?, 
-    ¿De dónde eres?, 
-    ¿Qué estudias?, 
-    ¿Qué te gusta de tu carrera?, 
-    ¿Qué te gustaría hacer en el futuro?, 
-    ¿Qué te gusta hacer en tu tiempo libre?
+    ¡Holiwi! Mi nombre es Nicolie, aunque en la organización audiovisual que pertenezco me dicen Blue porque amo el azul. Soy de Perú y estudio Comunicación Audiovisual, una carrera que elegí porque me apasiona contar historias a través de las imágenes y explorar todo el proceso creativo que hay detrás de una producción. 
+    Lo que más disfruto de mi carrera es que cada proyecto representa un reto diferente y me permite trabajar en equipo, aprender constantemente y expresar mi creatividad. Actualmente formo parte de ZINEAS, una organización audiovisual de alto rendimiento que esta dedicada a crear cortos y asumo roles importantes. 
+    Gracias a ellos, actualmente tengo una productora emergente llamada Studios Tiksi donde soy la Productora Ejecutiva y también soy lider de la Casa del León. He conocido personas increíbles y he podido participar en proyectos que han fortalecido mi pasión por el audiovisual. Yo siento que he crecido tanto personal 
+    como profesionalmente y donde he encontrado una comunidad que me inspira a seguir creando.
+    En el futuro me gustaría especializarme en Dirección de Fotografía y Dirección de Arte, ya que me fascina la manera en que la iluminación, los colores, la composición y el diseño visual pueden transmitir emociones y darle identidad a una historia. En mi tiempo libre disfruto ver películas y series, escuchar música, 
+    tomar fotografías, aprender cosas nuevas y compartir tiempo con las personas que quiero.  Siempre estoy buscando inspiración para seguir creciendo como comunicadora audiovisual y como persona. Si tuviera que describirme en pocas palabras, diría que soy una persona curiosa, creativa, comprometida y apasionada por 
+    todo lo relacionado con el cine y la creación audiovisual.
     """
 
     # Muestra el texto en la segunda columna utilizando HTML
@@ -139,9 +139,9 @@ elif opciones == 'Experiencia':
     )
 
 elif opciones == 'Proyectos':
-    st.markdown("<h2 style='text-align: center;'>Nombre a la sección 'Gráficos'</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Mapa de las últimas películas de los oscars</h2>", unsafe_allow_html=True)
 
-    graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
+    graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_de_películas']
 
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
 
@@ -191,9 +191,9 @@ elif opciones == 'Proyectos':
                 "lengua_familia_GB.png",
                 width=800
             )
-    elif grafico_seleccionado == 'Mapa_1':
+    elif grafico_seleccionado == 'Mapa_de_películas':
         # Título de la sección
-        st.subheader("🗺️ Mapa 1: Distribución geográfica")
+        st.subheader("🗺️ Mapa de películas")
 
         # Interpretación del mapa
         st.markdown(
