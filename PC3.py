@@ -199,7 +199,7 @@ elif opciones == 'Proyectos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del mapa.
+            Este es un mapa interactivo de mis top 5 películas favoritas siendo audiovisual y personales.
             </div>
             """,
             unsafe_allow_html=True
