@@ -85,7 +85,7 @@ if opciones == 'Inicio':
 
     # Define una cadena de texto multilínea que contiene una guía para redactar una presentación personal.
     texto = """
-    ¡Holiwi! Mi nombre es Nicolie, aunque en la organización audiovisual que pertenezco me dicen Blue porque amo el azul. Soy de Perú y estudio Comunicación Audiovisual, una carrera que elegí porque me apasiona contar historias a través de las imágenes y explorar todo el proceso creativo que hay detrás de una producción. 
+    ¡Holiwi! Mi nombre es Nicolie, aunque en la organización audiovisual me conocen como Blue, sí, amo mucho el azul. Soy de Lima-Perú y estudio Comunicación Audiovisual, una carrera que elegí porque me apasiona contar historias a través de las imágenes y explorar todo el proceso creativo que hay detrás de una producción. 
     Lo que más disfruto de mi carrera es que cada proyecto representa un reto diferente y me permite trabajar en equipo, aprender constantemente y expresar mi creatividad. Actualmente formo parte de ZINEAS, una organización audiovisual de alto rendimiento que esta dedicada a crear cortos y asumo roles importantes. 
     Gracias a ellos, actualmente tengo una productora emergente llamada Studios Tiksi donde soy la Productora Ejecutiva y también soy lider de la Casa del León. He conocido personas increíbles y he podido participar en proyectos que han fortalecido mi pasión por el audiovisual. Yo siento que he crecido tanto personal 
     como profesionalmente y donde he encontrado una comunidad que me inspira a seguir creando.
