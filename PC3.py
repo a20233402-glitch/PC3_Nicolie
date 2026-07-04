@@ -139,7 +139,7 @@ elif opciones == 'Experiencia':
     )
 
 elif opciones == 'Proyectos':
-    st.markdown("<h2 style='text-align: center;'>Mapa de las últimas películas de los oscars</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Mapa de mi top 5 de películas favoritas</h2>", unsafe_allow_html=True)
 
     graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_de_películas']
 
@@ -199,7 +199,7 @@ elif opciones == 'Proyectos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Este es un mapa interactivo de mis top 5 películas favoritas siendo audiovisual y personales.
+            Este es un mapa interactivo donde cada pin es el lugar donde se ha realizado mi top 5 de mis películas favoritas siendo audiovisual y personales.
             </div>
             """,
             unsafe_allow_html=True
