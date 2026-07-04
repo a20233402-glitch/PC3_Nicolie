@@ -166,7 +166,7 @@ elif opciones == 'Proyectos':
 
         with col4:
             st.image(
-                "histograma.png",
+                "histograma1.png",
                 width=800
             )
 
