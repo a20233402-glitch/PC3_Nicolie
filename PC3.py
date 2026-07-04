@@ -141,12 +141,12 @@ elif opciones == 'Experiencia':
 elif opciones == 'Proyectos':
     st.markdown("<h2 style='text-align: center;'>Mapa de mi top 5 de películas favoritas</h2>", unsafe_allow_html=True)
 
-    graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_de_películas']
+    graficos = ['Histograma_Partidos', 'Gráfico_2', 'Mapa_de_películas']
 
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
 
     # Mostramos el gráfico seleccionado
-    if grafico_seleccionado == 'Gráfico_1':
+    if grafico_seleccionado == 'Histograma_Partidos':
         # Título de la sección
         st.subheader("📊 Histograma")
 
@@ -154,7 +154,7 @@ elif opciones == 'Proyectos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            Aquí debe ir una breve interpretación de tu gráfico.
+            En el grafico se muestra las tarjetas rojas de los equipos de La Liga española de futbol.
             </div>
             """,
             unsafe_allow_html=True
@@ -165,7 +165,7 @@ elif opciones == 'Proyectos':
 
         with col4:
             st.image(
-                "Histograma.png",
+                "histograma.png",
                 width=800
             )
 
