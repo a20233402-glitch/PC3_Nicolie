@@ -148,7 +148,7 @@ elif opciones == 'Proyectos':
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico_1':
         # Título de la sección
-        st.subheader("📊 Gráfico 1: Lenguas aisladas")
+        st.subheader("📊 Histograma")
 
         # Interpretación del gráfico
         st.markdown(
@@ -165,7 +165,7 @@ elif opciones == 'Proyectos':
 
         with col4:
             st.image(
-                "aisladas_base_datos.png",
+                "Histograma.png",
                 width=800
             )
 
