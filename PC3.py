@@ -68,7 +68,7 @@ with st.sidebar:
 # Verifica si el usuario ha seleccionado la opción "Inicio" en el menú de navegación horizontal.
 # OJO: En caso que elijas el menú de la barra lateral (sidebar) debes cambiar "selected" por "opciones"
 if opciones == 'Inicio':
-    st.markdown("<h1 style='text-align: center;'>Notebook of Blue</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Pensamiento en Azul</h1>", unsafe_allow_html=True)
     # Muestra un título principal utilizando HTML -> st.markdown("...", unsafe_allow_html=True)
     # La etiqueta <h1> define un encabezado de nivel 1 -> "<h1 ...>...</h1>"
     # El estilo CSS 'text-align: center' centra el texto -> style='text-align: center;'
