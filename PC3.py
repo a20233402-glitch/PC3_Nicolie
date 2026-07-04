@@ -171,7 +171,7 @@ elif opciones == 'Proyectos':
 
     elif grafico_seleccionado == 'Gráfico_2':
         # Título de la sección
-        st.subheader("📊 Gráfico 2: Familias lingüísticas")
+        st.subheader("📊 Nube de palabras")
 
         # Interpretación del gráfico
         st.markdown(
@@ -188,7 +188,7 @@ elif opciones == 'Proyectos':
 
         with col7:
             st.image(
-                "lengua_familia_GB.png",
+                "nubedepalabras.png",
                 width=800
             )
     elif grafico_seleccionado == 'Mapa_de_películas':
