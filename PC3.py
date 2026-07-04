@@ -139,7 +139,7 @@ elif opciones == 'Experiencia':
     )
 
 elif opciones == 'Proyectos':
-    st.markdown("<h2 style='text-align: center;'>Mapa de mi top 5 de películas favoritas</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Proyectos realizados en el curso</h2>", unsafe_allow_html=True)
 
     graficos = ['Histograma_Partidos', 'Nube_de_palabras', 'Mapa_de_películas']
 
