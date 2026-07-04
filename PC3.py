@@ -154,7 +154,8 @@ elif opciones == 'Proyectos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            En el grafico se muestra las tarjetas rojas de los equipos de La Liga española de futbol.
+            En el grafico se muestra a un equipo de La Liga española de futbol, dónde se puede visualizar la frecuencia de goles anotados por el equipo cuando juega como local, 
+            la frecuencia de goles recibidos cuando juega local y la frecuenia de goles anotados cuando juega como visitante.  
             </div>
             """,
             unsafe_allow_html=True
