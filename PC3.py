@@ -141,7 +141,7 @@ elif opciones == 'Experiencia':
 elif opciones == 'Proyectos':
     st.markdown("<h2 style='text-align: center;'>Mapa de mi top 5 de películas favoritas</h2>", unsafe_allow_html=True)
 
-    graficos = ['Histograma_Partidos', 'Gráfico_2', 'Mapa_de_películas']
+    graficos = ['Histograma_Partidos', 'Nube_de_palabras', 'Mapa_de_películas']
 
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
 
@@ -169,15 +169,15 @@ elif opciones == 'Proyectos':
                 width=800
             )
 
-    elif grafico_seleccionado == 'Gráfico_2':
+    elif grafico_seleccionado == 'Nube_de_palabras':
         # Título de la sección
-        st.subheader("📊 Nube de palabras")
+        st.subheader("📊 Nube de palabras de Harry Potter")
 
         # Interpretación del gráfico
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
+            Este gráfico es una nube de palabras donde se resaltan más los siguientes nombres de los personajes pertenecientes a la pelicula Harry Potter: Dursley, Potter y Dudley.
             </div>
             """,
             unsafe_allow_html=True
