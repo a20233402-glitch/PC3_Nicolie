@@ -167,7 +167,7 @@ elif opciones == 'Proyectos':
         with col4:
             st.image(
                 "histograma1.png",
-                width=800
+                width=1000
             )
 
     elif grafico_seleccionado == 'Nube_de_palabras':
