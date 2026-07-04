@@ -200,7 +200,13 @@ elif opciones == 'Proyectos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Este es un mapa interactivo donde cada pin es el lugar donde se ha realizado mi top 5 de mis películas favoritas siendo audiovisual y personales.
+            Este es un mapa interactivo donde cada pin es el lugar donde se ha realizado mi top 5 de mis películas favoritas siendo audiovisual y personales. La verdad es que cada una de estas películas siento yo que forman una parte de mi personalidad y me han enamorado ya sea con dirección de fotografía, el arte con la paleta de colores o con las canciones; 
+            me han enseñado tal vez un mensaje o un aprendizaje y es por eso que forma parte de este top de películas:
+            1. Sentimental Value
+            2. Tick,Tick... Boom!
+            3. Eternal Sunshine of the Spotless Mind
+            4. About Time
+            5. La La Land
             </div>
             """,
             unsafe_allow_html=True
